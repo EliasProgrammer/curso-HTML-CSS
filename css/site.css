@@ -3,17 +3,45 @@ body {
     background-color: #F2FFFC;   
 }
 
-h1, h2{
+h1, h2, a{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-h1{
+main h1{
     text-align: center;
     color: #FFF;
     background-color: #851944;
+}
+
+main a {
+    color: #851944;
 }
 
 p{
    text-align: justify;
 
 }
+
+blockquote{
+    background-color: #D9E5E3;
+}
+
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+aside a{
+    color: inherit;
+}
+
+footer{
+    background-color: black;
+    color: #F2FFFC;
+}
+
+article footer{
+    background-color: inherit;
+    color: inherit
+}
+
