@@ -77,6 +77,10 @@ aside a{
     
 }
 
+aside > ul li{
+    display: inline-block;
+}
+
 aside h1{
     font-size: 30px;
     margin-bottom: 25px;
