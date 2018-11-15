@@ -1,9 +1,13 @@
+
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC; 
     font-size: 105%;  
     line-height: 1.5;
-    box-sizing: border-box;
+   
 }
 
 h1, h2, a{
@@ -41,6 +45,11 @@ main a {
     color: #851944;
 }
 
+main{
+    float: left;
+    width: 85%;
+}
+
 article > footer > p a {
     padding-left: 3px;
 }
@@ -75,11 +84,30 @@ blockquote{
 
 }
 
-aside{
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.fiat{
+    float: right;
+}
+
+.petrobras{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.navegacao-site{
     background-color: #3C1D3D;
     color: #F2FFFC;
     margin: auto;
     text-align: center;
+    float: right;
+    
 }
 
 aside a{    
@@ -91,6 +119,7 @@ aside a{
 aside h1{
     font-size: 30px;
     margin-bottom: 25px;
+    
 }
 
 nav ul {
@@ -102,6 +131,21 @@ nav ul {
     color: #F2FFFC;
     padding: 20px;
     margin-top: 10px;
+    clear: both;
+    
+}
+
+#foto-pessoal{
+    float: right;
+    margin-left: 0;
+    
+}
+
+.navegacao-site, #foto-pessoal{
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    
 }
 
 .leia-mais {
@@ -123,6 +167,7 @@ nav ul {
     height: 40px;
     display: inline-block;
     color: transparent;
+    
 }
 
 .github {
