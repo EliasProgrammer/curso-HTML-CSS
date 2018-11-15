@@ -17,6 +17,7 @@ main h1{
     background-color: #851944;
     padding: 25px;
     border-bottom: 10px solid black;
+    text-transform: uppercase;
 
 }
 
@@ -87,10 +88,6 @@ aside a{
     
 }
 
-.icones-redes-sociais li{
-    display: inline-block;
-}
-
 aside h1{
     font-size: 30px;
     margin-bottom: 25px;
@@ -114,4 +111,28 @@ nav ul {
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+
+.icones-redes-sociais li{
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: transparent;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+     background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
 }
