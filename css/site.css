@@ -43,11 +43,13 @@ main > div {
 
 main a {
     color: #851944;
+    
 }
 
 main{
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 article > footer > p a {
@@ -107,6 +109,9 @@ cite {
     margin: auto;
     text-align: center;
     float: right;
+    width: 15%;
+    position: relative;
+    top: 250px;
     
 }
 
@@ -132,17 +137,23 @@ nav ul {
     padding: 20px;
     margin-top: 10px;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%
     
 }
 
 #foto-pessoal{
     float: right;
     margin-left: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 250px;
     
 }
 
 .navegacao-site, #foto-pessoal{
-    width: 15%;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
     
