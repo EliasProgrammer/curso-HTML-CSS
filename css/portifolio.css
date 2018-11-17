@@ -1,0 +1,30 @@
+.trabalho{
+    border: 5px solid black;
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 20px;
+} 
+
+.trabalho figcaption{
+    padding-left: 10px;
+}
+
+#trabalho-BMW, #trabalho-IBM{
+    float: left;
+}
+
+#trabalho-UOL, #trabalho-G1{
+    margin-left: 20px;
+}
+
+.trabalhos-portifolio{
+    margin-left: 25%;
+}
+
+.trabalho img{
+    width: 270px;
+}
+
+.projetos-portifolio{
+    text-align: center;
+}
